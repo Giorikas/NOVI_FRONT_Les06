@@ -1,14 +1,12 @@
 // ==========================================
 // Opdracht 1a
 // Schrijf een script dat voor iedere student in de array de score (het getal uit de property "score") in de terminal print
-
 const scores = [
     {name: 'Max', score: 83, grade: null},
     {name: 'David', score: 77, grade: null},
     {name: 'Khalid', score: 92, grade: null},
     {name: 'Rianne', score: 66, grade: null}
 ];
-
 // Verwachtte uitkomsten:
 // 83
 // 77
@@ -19,8 +17,6 @@ const scores = [
 for (let i = 0; i < scores.length; i++) {
     console.log(scores[i].score)
 }
-
-
 
 // ==========================================
 // Opdracht 1b
@@ -56,8 +52,6 @@ for (let i = 0; i < scores.length; i++) {
 
 }
 console.log("")
-
-
 
 // ==========================================
 // Opdracht 1c
